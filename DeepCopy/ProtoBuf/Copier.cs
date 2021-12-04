@@ -7,8 +7,6 @@ namespace DeepCopy.ProtoBuf
     {
         public static T Copy<T>(this T t)
         {
-            
-
             using (var stream = new MemoryStream())
             {
                 Serializer.Serialize(stream, t);
