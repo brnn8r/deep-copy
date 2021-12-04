@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using DeepCopy;
+using DeepCopy.Naive;
 
-namespace DeepCopyTests
+namespace DeepCopyTests.Naive
 {
     [TestFixture]
     public class Tests

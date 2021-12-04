@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Linq;
 using System.Runtime.Serialization;
 
-namespace DeepCopy
+namespace DeepCopy.Naive
 {
     public static class Copier
     {
